@@ -3,12 +3,12 @@
 #container {margin-left:auto;
             margin-right:auto;
             width:600px;
-            border:1px solid grey;
+            border:1px solid;
             border-color:lightgrey;}
             
 #topbar {   background-image:url("pics/coffey.jpg");
             background-repeat:no-repeat;
-            background-position:0;
+            background-position:0 19px;
             background-color:#51473d;
             color:#eae7d2;
             font-family:Verdana;
@@ -37,8 +37,8 @@ h1, h2 {    font-family:"Times New Roman";
 #subcontent p   { font-family:Verdana;
                 line-height:20px;
                 color:#797066;
-                font-size:9px;}
+                font-size:10px;}
                 
 #bottomcontent  { font-family:Verdana;
                 font-style:italic;
-                font-size:9px;}
+                font-size:10px;}
