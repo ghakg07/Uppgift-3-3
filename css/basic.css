@@ -24,6 +24,8 @@
 .active {}
 
 #content    { background-color:#eae7d2;
+            position:relative;
+            height:380px;
             border-top:white;}
             
 img         {padding-left:10px;
@@ -31,22 +33,38 @@ img         {padding-left:10px;
             margin-top:-12px;
             float:left;}
             
+#maincontent    {display:block;
+                position:absolute;
+                top:0;
+                }
+            
 #maincontent p {  margin-top:-12px;
                 padding-left:10px;
+                padding-right:10px;
                 font-family:Verdana;
                 line-height:20px;
                 font-size:13px;
-                color:#797066;
-                width:348px;}
+                width:348px;
+                color:#797066;}
  
-#maincontent h1          {  padding-top:20px;
+#maincontent h1          {  padding-top:0;
                             color:#797066;
                             padding-left:10px;
                             font-family:"Times New Roman";
-                            font-weight:300;}              
+                            font-weight:300;}  
+                            
+#subcontent     {   display:block;
+                     margin-top:20px;
+                     height:325px;
+                    width:230px;
+                     border-left:1px dashed;
+                     border-color:#c0c0c0;
+                    float:right;}
+                    
                 
-#subcontent h1       {color:#51473d;
+#subcontent h1      {color:#51473d;
                     font-size:17px;
+                    margin-top:8px;
                     padding-left:10px;
                     font-family:"Times New Roman";
                     font-weight:300;
@@ -54,17 +72,22 @@ img         {padding-left:10px;
                     
 h2                  {color:#51473d;
                     font-size:14px;
+                    margin-top:27px;
+                    margin-bottom:0;
                     padding-left:10px;
                     font-family:"Times New Roman";
                     font-weight:300;
                     }
                     
+ul                  {margin-top:0;}
+
 #subcontent p   { margin-top:20px;
                 padding-left:10px;
+                padding-right:10px;
                 font-family:Verdana;
                 line-height:20px;
                 color:#797066;
-                font-size:10px;}
+                font-size:9px;}
                 
 #subcontent li a {color:#51473d;
                 font-family:Verdana;
@@ -73,7 +96,12 @@ h2                  {color:#51473d;
 #subcontent li {list-style:none;
                 margin-left:-30px;}
                 
-#bottomcontent  { font-family:Verdana;
+#bottomcontent  { display:block;
+                position:absolute;
+                bottom:0;
+                padding-left:10px;
+                padding-bottom:13px;
+                font-family:Verdana;
                 font-style:italic;
                  color:#797066;
                 font-size:10px;}
