@@ -1,0 +1,9 @@
+{"ts":1380791699104,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */"]],"start1":0,"start2":0,"length1":0,"length2":86}]],"length":86}
+{"contributors":[],"silentsave":false,"ts":1380792465903,"patch":[[{"diffs":[[0,"ilen. */"],[1,"\n\n#container\n#topbar\n#menu\n.active\n#content\n#maincontent\n"]],"start1":78,"start2":78,"length1":8,"length2":65}]],"length":143,"saved":false}
+{"ts":1380793639190,"patch":[[{"diffs":[[0,"ontainer"],[1," {margin-left:auto;\n            margin-right:auto;\n            width:1000px;\n            border:1px solid;}"],[0,"\n#topbar"]],"start1":90,"start2":90,"length1":16,"length2":123},{"diffs":[[0,"nt\n#maincontent\n"],[1,"#subcontent\n#bottomcontent\n"]],"start1":234,"start2":234,"length1":16,"length2":43}]],"length":277,"saved":false}
+{"ts":1380793668948,"patch":[[{"diffs":[[0,"dth:"],[-1,"10"],[1,"7"],[0,"00px"]],"start1":163,"start2":163,"length1":10,"length2":9}]],"length":276,"saved":false}
+{"ts":1380793828290,"patch":[[{"diffs":[[0,"d;}\n"],[-1,"#topbar"],[1,"            \n#topbar {   color:#51473d;\n            height:200px;}"],[0,"\n#me"]],"start1":201,"start2":201,"length1":15,"length2":74}]],"length":335,"saved":false}
+{"ts":1380793844647,"patch":[[{"diffs":[[0,"bar {   "],[1,"background-"],[0,"color:#5"]],"start1":222,"start2":222,"length1":16,"length2":27}]],"length":346,"saved":false}
+{"ts":1380793876671,"patch":[[{"diffs":[[0,"height:2"],[-1,"0"],[1,"5"],[0,"0px;}\n#m"]],"start1":268,"start2":268,"length1":17,"length2":17}]],"length":346,"saved":false}
+{"ts":1380793886519,"patch":[[{"diffs":[[0,"eight:25"],[-1,"0"],[1,"2"],[0,"px;}\n#me"]],"start1":269,"start2":269,"length1":17,"length2":17}]],"length":346,"saved":false}
+{"ts":1380793893377,"patch":[[{"diffs":[[0,"eight:25"],[-1,"2"],[1,"3"],[0,"px;}\n#me"]],"start1":269,"start2":269,"length1":17,"length2":17}]],"length":346,"saved":false}
